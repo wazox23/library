@@ -72,7 +72,6 @@ function displayBooks(){
       isRead.checked = book.checkbox;
       isRead.addEventListener('change', () => {
           bookList[index].checkbox = !bookList[index].checkbox;
-          
           saveOnLocalStorage();
         });
         

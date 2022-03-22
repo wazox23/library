@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.title h1 {
+  
+    font-family: 'Palette Mosaic', cursive;
+    color: #00ACEE;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family:  'Alfa Slab One', cursive;
+    padding-top: 20px;
+    
+}
+
+form input {
+    border-radius: 20px;
+    border: none;
+    
+}
+
+
+#addNewBook  {
+    border: none;
+    border-radius: 20px;
+    width: 20vh;
+    height: 10vh;
+    background-color: #00ACEE;
+    box-shadow:  0px 3px 11px 3px rgba(0,0,0,0.3);
+    font-family:  'Alfa Slab One', cursive;
+    transition: 100ms;
+    
+
+}
+
+#addNewBook:hover {
+    transform: scale(1.2)
+}
+
+
+#bookshelf {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    padding-top: 50px;
+    grid-gap: 15vh;
+    
+}
+
+li {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    box-shadow:  0px 3px 11px 3px rgba(0,0,0,0.3);
+    width: 80vh;
+    height: 20vh;
+    background-color: #00ACEE;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.deleteButton {
+    border: none;
+    color: #00ACEE;
+    background-color: white;
+    border-radius: 30px;
+    font-family:'Alfa Slab One', cursive; 
+    transition: 100ms;
+    padding: 10px 20px;
+    width: 15vh;
+    
+}
+
+.deleteButton:hover {
+    transform: scale(1.2)
+
+}
+
